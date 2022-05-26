@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    height: 80vh;
+}
+
+h1 {
+    background: linear-gradient(to top, #F9D377 20%, #AA7C0B 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+.message-container p {
+    margin: 8px 0;
+    text-align: center;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.buttons-list {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.btn {
+    background: linear-gradient(to top, #F9D377 20%, #AA7C0B 71%);
+    padding: 10px;
+    border-radius: 5px;
+    color:rgb(10, 104, 65);
+    border: transparent;
+    cursor: pointer;
+}
+
+.buttons-list .btn:last-child {
+    margin-top: 8px;
+}
+
+#new-card-btn {
+    display: none;
+}
+
